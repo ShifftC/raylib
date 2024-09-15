@@ -3747,3 +3747,12 @@ const char *TextFormat(const char *text, ...)
 }
 
 #endif // !SUPPORT_MODULE_RTEXT
+
+//----------------------------------------------------------------------------------
+// ok modifications
+//----------------------------------------------------------------------------------
+
+bool okIsGpuReady(void)
+{
+	return isGpuReady;
+}

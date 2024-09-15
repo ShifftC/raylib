@@ -2570,3 +2570,12 @@ static GlyphInfo *LoadFontDataBDF(const unsigned char *fileData, int dataSize, i
 #endif      // SUPPORT_FILEFORMAT_BDF
 
 #endif      // SUPPORT_MODULE_RTEXT
+
+//----------------------------------------------------------------------------------
+// ok modifications
+//----------------------------------------------------------------------------------
+
+int okGetTextLineSpacing(void)
+{
+	return textLineSpacing;
+}
